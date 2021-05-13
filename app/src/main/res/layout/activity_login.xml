@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/login"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:id="@+id/txtusrname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_margin="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:id="@+id/edtusrnmae"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/txtpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_margin="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/cardview_dark_background"/>
+    <EditText
+        android:id="@+id/edtpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginHorizontal="30dp"/>
+
+
+
+
+</LinearLayout>
